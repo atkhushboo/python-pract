@@ -1,5 +1,8 @@
 
-#importing my demo module
-import demo_module
+# this is my my_module file
 
-demo_module.greet_fun()
+person = {'name':'Khushbu','stream':'MCA'}
+
+def greet_fun(name):
+    return f"Hello,{name},this is my demo module"
+

@@ -1,8 +1,7 @@
-# this is my demo module
 
-name = "khushboo"
+#importing my demo module
+from my_module import*
 
-def greet_fun():
-    return "Hello",name,"this is my demo module"
+print(greet_fun("Khushi"))
 
-print(greet_fun())
+print(person)
